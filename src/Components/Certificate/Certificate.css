@@ -1,0 +1,77 @@
+#certificate{
+    overflow:hidden;
+    min-height:calc(100vh-4rem);
+    width:100vw;
+    max-width:65rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    /* background-color:red; */
+}
+.certificateHeading{
+    font-size:3rem;
+    font-weight:600;
+    padding-top:3rem;
+    margin-bottom:1.5rem;
+}
+.certificateDescription{
+    font-weight:200;
+    font-size:1rem;
+    max-width:50rem;
+    padding:0 2rem;
+    margin-top:.75rem;
+    font-size:2rem;
+    font-weight:500;
+}
+.certificateCard{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    max-width:65rem;
+    flex-wrap:wrap;
+    margin-top:1rem;
+}
+.card{
+    height:22rem;
+    width:17rem;
+    background-color:grey;
+    margin:.5rem;
+    border-radius:1rem;
+}
+.card:hover {
+    /* scale:1.5; */
+    transform:scale(1.08);
+    transition: transform 0.3s ease;
+}
+.cardimg{
+    margin:0.5rem;
+    object-fit:cover;
+    height:15rem;
+    width:16rem;
+}
+.cardtext{
+    margin:0.5rem;
+    height:5rem;
+    /* background-color:red; */
+}
+
+@media screen and (max-width:480px){
+    #certificate{
+        display:flex;
+        margin-left:15%;
+    }
+}
+
+@media screen and (max-width:320px){
+    #certificate{
+        display:flex;
+        margin-left:25%;
+    }
+}
+
+#linkLogo{
+    color:black;
+}

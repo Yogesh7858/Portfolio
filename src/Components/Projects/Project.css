@@ -1,0 +1,78 @@
+/* .project{
+    width:100vw;
+    max-width:65rem;
+    margin:auto 0;
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+} */
+#project{
+    overflow:hidden;
+    min-height:calc(100vh-4rem);
+    width:100vw;
+    max-width:60rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    /* background-color:red; */
+}
+.heading{
+    font-size:3rem;
+    font-weight:600;
+    padding-top:3rem;
+    margin-bottom:1.5rem;
+}
+.projectCard{
+    display:flex;
+    height:15rem;
+    background-color:grey;
+    border-radius:2rem;
+    margin:.75rem;
+    overflow:hidden;
+}
+.description{
+    padding:1rem;
+}
+.features{
+    margin-top:1rem;
+}
+.img{
+    object-fit: cover;
+    width:20rem;
+    height:13rem;
+    margin:1rem;
+    border-radius:1rem;
+}
+.a{
+    background-color: rgb(81, 112, 81);
+    margin-top:2rem;
+}
+.githubLogo{
+    width:2rem;
+    height:2rem;
+    /* margin-left:2rem; */
+    /* margin-top:0.8rem; */
+}
+.title{
+    font-size:2rem;;
+    font-weight:600;
+}
+.left{
+    margin-left:1rem;
+}
+@media screen and (max-width:480px){
+    #project{
+        display:flex;
+        margin-left:15%;
+    }
+    .projectCard{
+        height:10rem;
+        width:20rem;
+    }
+    .img{
+        width:10rem;
+        height:8rem;
+    }
+}
