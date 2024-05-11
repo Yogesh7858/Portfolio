@@ -61,8 +61,12 @@
 }
 @media screen and (max-width:700px){
     .bg{
-        /* right:-20vw; */
-        left:-20vw;
+        left:10vw;
+    }
+}
+@media screen and (max-width:560px){
+    .bg{
+        left:-10vw;
     }
 }
 .static{
@@ -74,6 +78,13 @@
     z-index:3;
     height:4rem;
     overflow:hidden;
+}
+@media screen and (max-width:500px){
+    .dynamic{
+        margin-top:-1rem;
+        height:2rem;
+        font-size:2rem;
+    }
 }
 
 .dynamic li{
@@ -100,7 +111,7 @@
     position:absolute;
     height:100%;
     width:100%;
-    border-left:2px solid yellow;
+    border-left:.2rem solid yellow;
     animation: anim 4s steps(17) infinite;
 }
 @keyframes anim {

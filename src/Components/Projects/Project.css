@@ -52,8 +52,6 @@
 .githubLogo{
     width:2rem;
     height:2rem;
-    /* margin-left:2rem; */
-    /* margin-top:0.8rem; */
 }
 .title{
     font-size:2rem;;
@@ -69,10 +67,55 @@
     }
     .projectCard{
         height:10rem;
-        width:20rem;
+        width:30rem;
     }
     .img{
-        width:10rem;
-        height:8rem;
+        width:6rem;
+        height:5rem;
+    }
+    .title{
+        font-size:1rem;;
+        font-weight:500;
+    }
+    .githubLogo{
+        width:1rem;
+        height:1rem;
+    }
+}
+@media screen and (max-width:450px){
+    #project{
+        display:flex;
+        margin-left:15%;
+    }
+    .projectCard{
+        height:10rem;
+        width:25rem;
+    }
+    .img{
+        width:6rem;
+        height:5rem;
+    }
+    .title{
+        font-size:1rem;;
+        font-weight:500;
+    }
+    .githubLogo{
+        width:1rem;
+        height:1rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    .img{
+        width:8rem;
+        height:7rem;
+    }
+    .title{
+        font-size:1rem;;
+        font-weight:500;
+    }
+    .githubLogo{
+        width:1rem;
+        height:1rem;
     }
 }

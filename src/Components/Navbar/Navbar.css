@@ -83,4 +83,7 @@
     .desktopMenuButton{
         display:none;
     }
+    .navbar{
+        width:100vw;
+    }
 }

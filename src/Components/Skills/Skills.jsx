@@ -3,7 +3,6 @@ import "./Skills.css";
 import web from "../../assets/react-portfolio-assets/assets/web.png";
 import coder from "../../assets/react-portfolio-assets/assets/coder.jpg";
 import college from "../../assets/react-portfolio-assets/assets/college.jpg";
-import unsplashPortfolio from "../../assets/react-portfolio-assets/assets/unsplashPortfolio.avif";
 
 
 const Skills = () => {
