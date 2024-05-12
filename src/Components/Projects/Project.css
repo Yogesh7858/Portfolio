@@ -40,6 +40,7 @@
 }
 .img{
     object-fit: cover;
+    overflow:hidden;
     width:20rem;
     height:13rem;
     margin:1rem;
@@ -63,7 +64,7 @@
 @media screen and (max-width:480px){
     #project{
         display:flex;
-        margin-left:15%;
+        margin-left:2rem;
     }
     .projectCard{
         height:10rem;
@@ -82,10 +83,10 @@
         height:1rem;
     }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:430px){
     #project{
         display:flex;
-        margin-left:15%;
+        margin-left:1rem;
     }
     .projectCard{
         height:10rem;
@@ -107,8 +108,9 @@
 
 @media screen and (max-width:650px){
     .img{
+        
         width:8rem;
-        height:7rem;
+        height:6rem;
     }
     .title{
         font-size:1rem;;

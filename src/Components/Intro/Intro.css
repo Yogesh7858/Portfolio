@@ -59,11 +59,11 @@
         right:-10vw;
     }
 }
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
     .bg{
-        left:10vw;
+        right:-10vw;
     }
-}
+} */
 @media screen and (max-width:560px){
     .bg{
         left:-10vw;
@@ -71,6 +71,7 @@
 }
 .static{
     min-height:4rem;
+    /* background-color:red; */
 }
 .dynamic{
     margin-top:-1.5rem;
@@ -81,10 +82,25 @@
 }
 @media screen and (max-width:500px){
     .dynamic{
-        margin-top:-1rem;
+        margin-top:-2.5rem;
         height:2rem;
         font-size:2rem;
     }
+    .static{
+        min-height:2rem;
+    }
+    
+}
+@media screen and (max-width:380px){
+    .dynamic{
+        margin-top:-3.5rem;
+        height:2rem;
+        font-size:2rem;
+    }
+    .static{
+        min-height:2rem;
+    }
+    
 }
 
 .dynamic li{

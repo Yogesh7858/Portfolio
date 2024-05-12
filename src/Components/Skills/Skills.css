@@ -63,13 +63,13 @@
 @media screen and (max-width:480px){
     #skills{
         display:flex;
-        margin-left:5%;
+        margin-left:2rem;
     }
 }
 @media screen and (max-width:425px){
     #skills{
         display:flex;
-        margin-left:15%;
+        margin-left:1rem;
     }
     .skillBarImg{
         width:4rem;

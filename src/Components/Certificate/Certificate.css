@@ -61,14 +61,14 @@
 @media screen and (max-width:480px){
     #certificate{
         display:flex;
-        margin-left:15%;
+        left:2rem;
     }
 }
 
 @media screen and (max-width:320px){
     #certificate{
         display:flex;
-        margin-left:25%;
+        left:1rem;
     }
 }
 
