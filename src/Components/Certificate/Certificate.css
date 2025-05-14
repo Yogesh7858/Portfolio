@@ -63,6 +63,15 @@
         display:flex;
         left:2rem;
     }
+    .certificateDescription{
+        font-size:1rem;
+    }
+    .certificateHeading{
+        font-size:2rem;
+        /* font-weight:600;
+        padding-top:3rem;
+        margin-bottom:1.5rem; */
+    }
 }
 
 @media screen and (max-width:320px){

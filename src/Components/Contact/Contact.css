@@ -20,6 +20,7 @@
 }
 
 .contactDescription{
+    display:flex;
     padding:1rem;
     margin-left:8rem;
     text-align:center;
@@ -77,5 +78,14 @@
     }
     #contactPage{
         margin-left:1rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .contactPageTitle{
+        font-size:2rem;
+    }
+    .contactDescription{
+        font-size:1rem;
     }
 }
